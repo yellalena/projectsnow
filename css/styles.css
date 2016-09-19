@@ -1,8 +1,8 @@
 body {
-	background-size: cover;
 	background-image: url(../img/bckgrnd.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 #welcome-wrapper {
@@ -70,9 +70,6 @@ body {
 }
 
 @media(max-width: 720px){
-	body {
-		background-size: 200% 200% cover;
-	}
 	.welcome a{
 		font-size: 20vw;
 	}
