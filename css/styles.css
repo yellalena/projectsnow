@@ -4,11 +4,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
-@media(max-width: 720px){
-	.index-body{
-		background-position: top right;
-	}
-}
 
 #welcome-wrapper {
 	position: relative;
@@ -75,6 +70,9 @@ body {
 }
 
 @media(max-width: 720px){
+	body {
+		background-size: 200% 100vh;
+	}
 	.crew {
 		margin-top: 0;
 		margin-left: 3%;
