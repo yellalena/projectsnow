@@ -1,6 +1,6 @@
 body {
 	background-size: cover;
-	background-image: url(../img/bckgrnd.png);
+	background-image: url(../img/bckgrnd.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -21,7 +21,7 @@ body {
 	color: white;
 	-moz-text-shadow:0 0 10px #c00; 
 	-webkit-text-shadow:0 0 10px #c00; 
-	text-shadow:0 0 40px rgba(8, 217, 212, 0.9);
+	text-shadow:0 0 40px rgba(144, 77, 48, 0.9);
 	-webkit-transition: all 0.5s ease;
 	opacity: 1;
 }
