@@ -16,7 +16,7 @@ body {
 .welcome a {
 	position: relative;
 	text-decoration: none;
-	font-size: 20vw;
+	font-size: 7em;
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	-moz-text-shadow:0 0 10px #c00; 
@@ -72,6 +72,9 @@ body {
 @media(max-width: 720px){
 	body {
 		background-size: 200% 100vh;
+	}
+	.welcome a{
+		font-size: 20vw;
 	}
 	.crew {
 		margin-top: 0;
