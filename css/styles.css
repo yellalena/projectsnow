@@ -71,7 +71,7 @@ body {
 
 @media(max-width: 720px){
 	body {
-		background-size: 200% 100vh;
+		background-size: 100% 100% cover;
 	}
 	.welcome a{
 		font-size: 20vw;
@@ -91,7 +91,7 @@ body {
 }
 
 .down-column {
-	height: 70vh;
+	height: 100vh;
 	color: #eee;
 	font-family: 'Press Start 2P', cursive;
 }
