@@ -1,9 +1,14 @@
 body {
 	background-size: cover;
 	background-image: url(../img/bckgrnd.png);
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
-
+@media(max-width: 720px){
+	.index-body{
+		background-position: top right;
+	}
+}
 
 #welcome-wrapper {
 	position: relative;
@@ -16,7 +21,7 @@ body {
 .welcome a {
 	position: relative;
 	text-decoration: none;
-	font-size: 7em;
+	font-size: 20vw;
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	-moz-text-shadow:0 0 10px #c00; 
@@ -49,6 +54,10 @@ body {
 	-webkit-transition: all 0.4s ease;
 }
 
+.crew dl:hover {
+	opacity: 0.9;
+}
+
 .crew dt {
 	padding-top: 0.666em;
 	display: inline-block;
@@ -65,8 +74,19 @@ body {
 	font-size: 1.8em;
 }
 
-.crew dl:hover{
-	opacity: 0.9;
+@media(max-width: 720px){
+	.crew {
+		margin-top: 0;
+		margin-left: 3%;
+		padding: none;
+	}
+	.crew dt,
+	.crew dd {
+		padding: none;
+		width: 100%;
+		display: inline-block;
+		text-align: left;
+	}
 }
 
 .down-column {
