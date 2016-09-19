@@ -1,12 +1,10 @@
 body {
 	position: relative;
-	background-size: 100vw;
+	background-size: cover;
 	background-image: url(../img/bckgrnd.png);
 	background-repeat: no-repeat;
-	background-position: center-top;
 	background-attachment: fixed;
 }
-
 
 #welcome-wrapper {
 	position: relative;
@@ -41,7 +39,7 @@ body {
 .crew {
 	height: 100vh;
 	margin-top: 17vh;
-	margin-left: -10em;
+	margin-left: -7em;
 }
 
 .crew dl {
@@ -72,18 +70,17 @@ body {
 	opacity: 0.9;
 }
 
-.non-crew {
-	margin-left: 15%; 
-	margin-bottom: 5%;
-}
-
 .down-column {
-	height: 100vh;
+	height: 70vh;
 	color: #eee;
 	font-family: 'Press Start 2P', cursive;
 }
 
-.down-column ul{ 
+.down-column h2 {
+	padding-bottom: 0.8em;
+}
+
+.down-column ul{
 	text-transform: lowercase;
 	text-align: justify;
 	font-size: 1.6em;
@@ -95,7 +92,3 @@ body {
 .down-column ul:hover{
 	opacity: 0.9;
 }
-
-/*
-гарно...
-*/
