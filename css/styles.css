@@ -71,7 +71,7 @@ body {
 
 @media(max-width: 720px){
 	body {
-		background-size: 100% 100% cover;
+		background-size: 200% 200% cover;
 	}
 	.welcome a{
 		font-size: 20vw;
